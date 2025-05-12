@@ -45,9 +45,9 @@ nav a {
 }
 
 .ascii-header {
-    font-size: .76vw; 
+    font-size: .8vw; 
     white-space: pre;
-    text-align: left;
+    text-align: center;
     overflow-x: hidden;
     overflow-y: hidden;
     display: block;
@@ -57,8 +57,9 @@ nav a {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 200px;
     margin: 0px;
+    text-align: center;
 }
 
 h2 {
@@ -128,6 +129,11 @@ article h2 {
 article p {
     font-size: 18px;
     margin: 0px;
+}
+
+.contact-link {
+    font-size: 60px;
+    color: var(--purple);
 }
 
 .mpc-player {
