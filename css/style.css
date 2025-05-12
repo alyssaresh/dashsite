@@ -1,3 +1,11 @@
+:root {
+    --dark-blue: #081269;
+    --purple: #e0bcff;
+    --light-blue: #c3feff;
+    --bright-blue: #1a00ff;
+    --white: #ffffff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,12 +14,46 @@
 
 html, body {
     height: 100%;
-    background: #081269;
-    color: #9aefd9;
+    background: var(--dark-blue);
+    color: var(--purple);
     font-size: 30px;
-    font-family: "Anonymous Pro", monospace;
+    font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
+}
+
+nav {
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+    font-size: 30px;
+    font-family: "VT323", monospace;
+    font-weight: 300;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+.ascii-header {
+    font-size: .76vw; 
+    white-space: pre;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    max-width: 100%;
+    color: var(--purple);
+    padding: 0 20px;
 }
 
 h1 {
@@ -25,12 +67,12 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 30px;
     margin: 0px;
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -41,24 +83,41 @@ a {
 }
 
 .left-side {
-    width: 50%;
+    width: 40%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
+    position: relative;
 }
 
 .left-side img {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    width: 120%;
+    height: 120%;
     object-fit: cover;
+    object-position: bottom right;
 }
 
 .right-side {
-    width: 50%;
+    width: 60%;
     height: 100%;
     overflow-y: auto;
-    background-color: #081269;
+    background-color: --var(--dark-blue);;
+    padding: 10px;
+}
+
+article {
+    color: var(--light-blue);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+    color: var(--light-blue);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 article h2 {
