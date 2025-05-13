@@ -137,6 +137,8 @@ article p {
     color: var(--purple);
 }
 
+/*media player*/
+
 .mpc-player {
     width: 100%;
     border: 2px solid #999;
@@ -169,4 +171,29 @@ article p {
     padding: 10px;
     background-color: #f4f4f4;
   }
-  
+
+/* gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 16px; /* Space between images */
+    padding: 16px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1); /* Zoom on hover */
+}
