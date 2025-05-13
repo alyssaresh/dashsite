@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const url = event.target.getAttribute('href'); // Get the URL from the link
 
             // Fetch the content of the linked page
-            fetch(`pages/${url}`)
+            fetch(url)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
