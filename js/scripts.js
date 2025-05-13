@@ -25,6 +25,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-/* gallery */
-

@@ -1,7 +1,7 @@
 :root {
     --dark-blue: #081269;
     --purple: #e0bcff;
-    --light-blue: #c3feff;
+    --light-blue: #9ffcff;
     --bright-blue: #1a00ff;
     --white: #ffffff;
 }
@@ -115,12 +115,6 @@ article {
     margin: 20px;
     text-align: center;
 }
-    color: var(--light-blue);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
 
 article h2 {
     font-size: 60px;
@@ -173,6 +167,7 @@ article p {
   }
 
 /* gallery */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
@@ -197,3 +192,6 @@ article p {
 .gallery-item img:hover {
     transform: scale(1.1); /* Zoom on hover */
 }
+
+/* lightbox */
+
