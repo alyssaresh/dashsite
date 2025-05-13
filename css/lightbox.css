@@ -1,8 +1,8 @@
-body.lb-disable-scrolling {
+.gallery-page body.lb-disable-scrolling {
   overflow: hidden;
 }
 
-.lightboxOverlay {
+.gallery-page .lightboxOverlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@ body.lb-disable-scrolling {
   display: none;
 }
 
-.lightbox {
+.gallery-page .lightbox {
   position: absolute;
   left: 0;
   width: 100%;
@@ -23,7 +23,7 @@ body.lb-disable-scrolling {
   outline: none;
 }
 
-.lightbox .lb-image {
+.gallery-page .lightbox .lb-image {
   display: block;
   height: auto;
   max-width: inherit;
@@ -34,11 +34,11 @@ body.lb-disable-scrolling {
   border: 4px solid white;
 }
 
-.lightbox a img {
+.gallery-page .lightbox a img {
   border: none;
 }
 
-.lb-outerContainer {
+.gallery-page .lb-outerContainer {
   position: relative;
   width: 250px;
   height: 250px;
@@ -50,13 +50,13 @@ body.lb-disable-scrolling {
   background-color: white;
 }
 
-.lb-outerContainer:after {
+.gallery-page .lb-outerContainer:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.lb-loader {
+.gallery-page .lb-loader {
   position: absolute;
   top: 43%;
   left: 0;
@@ -66,7 +66,7 @@ body.lb-disable-scrolling {
   line-height: 0;
 }
 
-.lb-cancel {
+.gallery-page .lb-cancel {
   display: block;
   width: 32px;
   height: 32px;
@@ -74,7 +74,7 @@ body.lb-disable-scrolling {
   background: url(../images/loading.gif) no-repeat;
 }
 
-.lb-nav {
+.gallery-page .lb-nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -83,22 +83,22 @@ body.lb-disable-scrolling {
   z-index: 10;
 }
 
-.lb-container > .nav {
+.gallery-page .lb-container > .nav {
   left: 0;
 }
 
-.lb-nav a {
+.gallery-page .lb-nav a {
   outline: none;
   background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
 }
 
-.lb-prev, .lb-next {
+.gallery-page .lb-prev, .lb-next {
   height: 100%;
   cursor: pointer;
   display: block;
 }
 
-.lb-nav a.lb-prev {
+.gallery-page .lb-nav a.lb-prev {
   width: 34%;
   left: 0;
   float: left;
@@ -110,11 +110,11 @@ body.lb-disable-scrolling {
   transition: opacity 0.6s;
 }
 
-.lb-nav a.lb-prev:hover {
+.gallery-page .lb-nav a.lb-prev:hover {
   opacity: 1;
 }
 
-.lb-nav a.lb-next {
+.gallery-page .lb-nav a.lb-next {
   width: 64%;
   right: 0;
   float: right;
@@ -126,11 +126,11 @@ body.lb-disable-scrolling {
   transition: opacity 0.6s;
 }
 
-.lb-nav a.lb-next:hover {
+.gallery-page .lb-nav a.lb-next:hover {
   opacity: 1;
 }
 
-.lb-dataContainer {
+.gallery-page .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
   width: 100%;
@@ -138,35 +138,35 @@ body.lb-disable-scrolling {
   border-bottom-right-radius: 4px;
 }
 
-.lb-dataContainer:after {
+.gallery-page .lb-dataContainer:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.lb-data {
+.gallery-page .lb-data {
   padding: 0 4px;
   color: #ccc;
 }
 
-.lb-data .lb-details {
+.gallery-page .lb-data .lb-details {
   width: 85%;
   float: left;
   text-align: left;
   line-height: 1.1em;
 }
 
-.lb-data .lb-caption {
+.gallery-page .lb-data .lb-caption {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
 }
 
-.lb-data .lb-caption a {
+.gallery-page .lb-data .lb-caption a {
   color: #4ae;
 }
 
-.lb-data .lb-number {
+.gallery-page .lb-data .lb-number {
   display: block;
   clear: left;
   padding-bottom: 1em;
@@ -174,7 +174,7 @@ body.lb-disable-scrolling {
   color: #999999;
 }
 
-.lb-data .lb-close {
+.gallery-page .lb-data .lb-close {
   display: block;
   float: right;
   width: 30px;
@@ -189,7 +189,7 @@ body.lb-disable-scrolling {
   transition: opacity 0.2s;
 }
 
-.lb-data .lb-close:hover {
+.gallery-page .lb-data .lb-close:hover {
   cursor: pointer;
   opacity: 1;
 }

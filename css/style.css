@@ -167,7 +167,7 @@ article p {
   }
 
 /* gallery w responsive grid*/
-/* 
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
@@ -191,7 +191,7 @@ article p {
 
 .gallery-item img:hover {
     transform: scale(1.1); 
-} */
+} 
 
 /* lightbox */
 
