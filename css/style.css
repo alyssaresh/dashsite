@@ -29,6 +29,7 @@ nav {
     font-family: "VT323", monospace;
     font-weight: 300;
     padding: 0 20px;
+    margin: 20px 0;
 }
 
 nav ul {
@@ -37,6 +38,7 @@ nav ul {
     margin: 0; 
     display: flex;
     justify-content: space-between;
+    color: var(--light-blue);
 }
 
 nav a {
@@ -54,6 +56,11 @@ nav a {
     max-width: 100%;
     color: var(--purple);
     padding: 0 20px;
+}
+
+.ascii-header a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep the text color the same */
 }
 
 h1 {
