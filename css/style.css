@@ -119,7 +119,7 @@ nav a {
     justify-content: center;
     flex: 1 1 auto;
     min-height: 0;
-    padding: 0 50px;
+    padding: 20px 50px;
     width: 100%;
 }
 
@@ -146,6 +146,10 @@ nav a {
     margin-top: auto;
 }
 
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+}
 
 
 h1 {
@@ -217,7 +221,7 @@ a {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
     gap: 16px; 
     padding: 16px;
 }
@@ -228,14 +232,15 @@ a {
 
 .gallery-item img {
     width: 100%;
-    height: 200px;
+    height: 100%;
     object-fit: cover;
     display: block;
     transition: transform 0.3s ease; 
 }
 
 .gallery-item img:hover {
-    transform: scale(1.1); 
+    /* transform: scale(1.1);  */
+    filter: invert(100%);
 } 
 
 
@@ -246,6 +251,7 @@ a {
   text-align: center;
   text-decoration: none;
   color: var(--light-blue);
+
 
 }
 
