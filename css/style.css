@@ -47,7 +47,7 @@ body {
     background-color: var(--bright-blue);
     min-height: 100vh;
     width: 40vw;  
-    background-image: url("/img/dash.jpeg");
+    background-image: url("img/dash.jpeg");
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -80,8 +80,8 @@ body {
 }
 
 .ascii-header a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Keep the text color the same */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 /* navigation styling */

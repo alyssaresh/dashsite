@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     contentDiv.innerHTML = html; 
 
                     if (url.includes('gallery.html')) {
-                        if (!document.querySelector('link[href="/css/lightbox.css"]')) {
+                        if (!document.querySelector('link[href="css/lightbox.css"]')) {
                             const lightboxStylesheet = document.createElement('link');
                             lightboxStylesheet.rel = 'stylesheet';
-                            lightboxStylesheet.href = '/css/lightbox.css';
+                            lightboxStylesheet.href = 'css/lightbox.css';
                             document.head.appendChild(lightboxStylesheet);
                         }
                         document.body.classList.add('gallery-page');
