@@ -294,15 +294,15 @@ a {
 
     .right-side {
         margin-left: 0;
-        width: 100vw !important;
+        width: 100% !important;
     }
 
-        .ascii-header2 {
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        white-space: pre-wrap;
-        font-size: 2.2vw;
+    .ascii-header2 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    white-space: pre-wrap;
+    font-size: 2.2vw;
     }
 }
 
