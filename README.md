@@ -13,9 +13,9 @@ Dash wears many hats, so I could end up with multiple nav options or pages. But 
 ## Challenges
 **3/5/25:** hardest thing so far has been setting up github permissions myself from the terminal. also uploading a repo on my local to github (again, from the terminal). Though google was helpful, I got the best results using chat gpt to help troubleshoot.<br>
 **3/28/25:** Getting the Lightbox to work was tough. I tried a lot of different things, but ran into some issues because of the way I had split my divs up (a full screen pop up was hard). Simplifying what the lightbox actually did helped in the long run. 
+**6/18/25:** One challenge I had was making the website look good for mobile devices (and screens that are portrait rather than landscape). I was able to account for most screens, but some don't look great with the landscape-based layout no matter what I tried. This is something I'll definitely keep in mind in the future when designing other websites! 
 
 # Need to Dos
--make things mobile friendly<br>
 -program in more accessibility
 
 ## Hope to Dos
@@ -23,12 +23,12 @@ Dash wears many hats, so I could end up with multiple nav options or pages. But 
 -transfer everything to React
 
 ## Notes
-**3/28/25:** programming allows me to make a site look exactly the way I want it to, unlike on Figma where I can only draw a rough concept. The process of building step by step and making tiny changes was so inspiring and fun. I love the way things came together at the end and I'm excited to reformat it and eventually rebuild it with React. 
+**3/28/25:** programming allows me to make a site look exactly the way I want it to, unlike on Figma where I can only draw a rough concept. The process of building step by step and making tiny changes was so inspiring and fun. I love the way things came together at the end and I'm excited to reformat it and eventually rebuild it with React!
 
 ### thanks to -- 
 Yannick Gregoire for the [tutorial](https://www.awwwards.com/academy/course/html-css-and-javascript-for-beginners)<br>
 [Markdown Tutorial](https://www.awwwards.com/academy/course/html-css-and-javascript-for-beginners) for helping me write this<br>
 Temani Afif for the [heart script](https://css-tip.com/image-heart-shape/)<br>
 Avinash for the [Lightbox Tutorial](https://youtu.be/4gcy-qT9kGw?si=llXnMDL6XS1543xu)<br>
-[Astrid Sonne](https://www.astridsonne.com/works) for the DJ mixes that put me in hacker mode<br>
+[Astrid Sonne](https://www.astridsonne.com/works) for the DJ mixes that put me in hacker mode (fun fact, I just played a show with her in Philly!)<br>
 [Zip Code Wilmington](https://zipcodewilmington.com/) for everything
