@@ -49,7 +49,7 @@ body {
     width: 40vw;  
     background-image: url("../img/dash.jpeg");
     background-size: cover;
-    background-position: bottom center;
+    background-position: right center;
     background-repeat: no-repeat;
     position: fixed;
 }
@@ -271,7 +271,7 @@ a {
 
 
 .about-img {
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
     float: left;
     margin: 0 20px 20px 0;
@@ -285,7 +285,7 @@ a {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     .left-side {
         display: none !important;
         position: static !important;
@@ -304,6 +304,29 @@ a {
     white-space: pre-wrap;
     font-size: 2.2vw;
     }
+
+    .gallery {
+        grid-template-columns: 1fr;   /* Single column */
+        gap: 16px;
+        padding: 8px;
+    }
+
+    .gallery-item img {
+    min-height: 120px; 
+    }
+
+    .about-img {
+    max-width: 90%;
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    }
+
+    nav {
+        padding: 0 20px;
+    }
+    
 }
 
 
