@@ -283,7 +283,7 @@ a {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 853px) {
     .left-side {
         display: none !important;
         position: static !important;
