@@ -296,11 +296,11 @@ a {
     }
 
     .ascii-header2 {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    white-space: pre-wrap;
-    font-size: 2.2vw;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        white-space: pre-wrap;
+        font-size: 2.2vw;
     }
 
     .gallery {
@@ -310,15 +310,15 @@ a {
     }
 
     .gallery-item img {
-    min-height: 120px; 
+        min-height: 120px; 
     }
 
     .about-img {
-    max-width: 90%;
-    width: 100%;
-    float: none;
-    display: block;
-    margin: 0 auto 20px auto;
+        max-width: 90%;
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
     }
 
     nav {
