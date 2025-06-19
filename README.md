@@ -12,11 +12,11 @@ Dash wears many hats, so I could end up with multiple nav options or pages. But 
 
 ## Challenges
 **3/5/25:** hardest thing so far has been setting up github permissions myself from the terminal. also uploading a repo on my local to github (again, from the terminal). Though google was helpful, I got the best results using chat gpt to help troubleshoot.<br>
-**3/28/25:** Getting the Lightbox to work was tough. I tried a lot of different things, but ran into some issues because of the way I had split my divs up (a full screen pop up was hard). Simplifying what the lightbox actually did helped in the long run. 
-**6/18/25:** One challenge I had was making the website look good for mobile devices (and screens that are portrait rather than landscape). I was able to account for most screens, but some don't look great with the landscape-based layout no matter what I tried. This is something I'll definitely keep in mind in the future when designing other websites! 
+**3/28/25:** Getting the Lightbox to work was tough. I tried a lot of different things, but ran into some issues because of the way I had split my divs up (a full screen pop up was hard). Simplifying what the lightbox actually did helped in the long run. <br>
+**6/18/25:** One challenge I had was making the website look good for mobile devices (and screens that are portrait rather than landscape). I was able to account for most screens, but some don't look great with the landscape-based layout simply because it was designed for wider screens. This is something I'll definitely keep in mind in the future when building other websites, so the mobile version looks just as engaging!
 
 # Need to Dos
--program in more accessibility
+-program in more accessibility, and fix some of the issues identified by accessibilitychecker.org
 
 ## Hope to Dos
 -implement this [ASCII library](https://github.com/patorjk/figlet.js)<br>
